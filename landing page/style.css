@@ -1,0 +1,117 @@
+body{
+       background: url(images/bg.jpg);
+        background-size: 40px 40px;
+        background-repeat: no-repeat;
+    
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+ .nav1 .left img{
+   borSder-radius: 50px;
+   height: 40px;
+   width: 40px;
+ }
+ ul{
+    list-style: none;
+    float: right;
+    position: relative;
+    margin-top: 20px;
+    padding-right: 10px;
+    color: black;
+ }
+ li{
+   display: inline-block;
+ }
+ li a{
+   color:black;
+   text-decoration:none;
+   padding: 5px 20px;
+   font-size: 14px;
+   
+ }
+ .new{
+   
+   margin: 80px;
+   padding: 70px;
+   color: black;
+ }
+  .container{
+    color: white;
+   width: 250px;
+   height: 380px;
+   background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+   position: absolute;
+   top: 120px;
+   left: 870px;
+   border-radius: 10px;
+ }
+  .new .cn a{
+   text-decoration: none;
+   position: relative;
+ }
+.new .cn  a :hover{
+   color: black ;
+   cursor: pointer;
+ }
+ .second {
+   text-align: center;
+  text-size-adjust: bold;
+  color:black;
+ }
+ .second img{
+   float: left;
+   width: 550px;
+   height: 550px;
+ }
+ .container2{
+   float: right;
+   position: relative;
+   color: black;
+   }
+ .container3{
+   text-align: center;
+   position:relative;
+   padding: 50px;
+    }
+
+ .imagesss{ 
+   width: fit-content;
+ }
+footer{
+  display: grid;
+  grid-template-columns: 5fr 5fr 5fr 5fr;
+  grid-gap: 20px;
+  background-color:indigo;
+  position:relative  ;
+}
+footer a{
+  color:white;
+  position: relative;
+}
+@mediaquery{
+  body { font-family: Helvetica, san-serif; }
+H1 { color: green; }
+a:link { color:purple; }
+
+
+.main,
+.sidebar { display:block; width:100%; }
+
+@media all and (min-width: 36em){
+	.main { float: left; width:60%; }
+	.sidebar { float: left; width:40%; }
+}
+
+@media all and (min-width: 50em){
+	.main { width:70%; }
+	.sidebar { width:30%; }
+
+	
+	H1 { color: blue; font-size:1.2em }
+}
+}
+ 
+ 
